@@ -1,2 +1,2 @@
-# visitor-badge-creator
+# Visitor Badge Creator
 Simple Visitor Badge Creator Website
