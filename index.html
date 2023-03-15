@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<link rel="stylesheet" href="/style.css">
+		<script src="/script.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+		
+		<title>Visitor Badge Generator</title>
+		<meta name="title" content="Visitor Badge Generator">
+		<meta name="description" content= "Visitor Badge Generator" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+		
+		<meta charset="UTF-8" />
+		<meta content="#09c372" data-react-helmet="true" name="theme-color" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta content="dark" name="color-scheme"/>
+		<meta name="language" content="English">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="googlebot" content="notranslate">
+		<meta name="author" content="Visitor Badge Generator">
+		<meta name="copyright" content="MrEnoX">
+	</head>
+	<body>
+		<header>
+			<div class="logo" id="logo"><h1>Visitor Badge Generator</h1></div>
+		</header>
+		<main>
+			<div id="main">
+				<h2>Create Badge</h2>
+				<form id="names">
+					<div class="input-box">
+						<a class="examplelt">Like This</a>
+						<img class="exampleimg" src="https://visitor-badge.glitch.me/badge?page_id=generator" alt="visitor badge"/>
+					</div>
+					<div class="input-box">
+						<a class="credit" href="https://github.com/jwenjian/visitor-badge" target="_blank">Visitor Badge <i class="fa-brands fa-github"></i> <i class="fa-solid fa-up-right-from-square"></i></a>
+						<img class="exampleimg" src="https://visitor-badge.glitch.me/badge?page_id=jwenjian.visitor-badge" alt="visitor badge"/>
+					</div><br>
+					
+					
+					<div class="input-box">
+						<label class="inputname" title="website that stores your visitor values">Website:</label>
+						<select class="inputcase" id="siteselect">
+							<option value="https://visitor-badge.glitch.me/badge?page_id=">Glitch</option>
+							<option value="https://visitor-badge.laobi.icu/badge?page_id=">Laobi</option>
+							<option value="https://visitor-badge.deta.dev/badge?page_id=">DetaDev</option>
+							<option value="https://visits-badge.glitch.me//badge?page_id=">Alternative Glitch</option>
+						</select>
+					</div>
+
+
+					<div class="input-box">
+						<label class="inputname" title="text that shows at the left">Text:</label>
+						<input class="inputcase" type="text" name="text" id="text" placeholder=" ...">
+					</div>
+					<div class="input-box">
+						<label class="inputname" title="when clicked the image this url will open">URL:</label>
+						<input class="inputcase" type="text" name="url" id="url" placeholder=" ...">
+					</div>
+					<div class="input-box">
+						<label class="inputname" title="page id can be anything you want">Page ID:</label>
+						<input class="inputcase" type="text" name="pageid" id="pageid" placeholder=" ...">
+					</div>
+					<div class="input-box">
+						<label class="inputname" title="color that shows at the left">Left Color:</label>
+						<input class="inputcase" type="color" id="lcolor" value="#595959">
+					</div>
+					<div class="input-box">
+						<label class="inputname" title="color that shows at the right">Right Color:</label>
+						<input class="inputcase" type="color" id="rcolor" value="#1283C3">
+					</div>
+				</form>
+				<div id="badges">
+					<div class="input-box" id="markdownarea">
+						<label class="inputname" title="MARKDOWN">MARKDOWN:</label>
+						<textarea class="output" id="markdown" placeholder="MarkDown!" rows="2" onclick="copymark()" title="Click to Copy" required></textarea>
+					</div>
+					<div class="input-box" id="htmlarea">
+						<label class="inputname" title="HTML">HTML:</label>
+						<textarea class="output" id="html" placeholder="HTML!" rows="2" onclick="copyhtml()" title="Click to Copy" required></textarea>
+					</div>
+					<div class="input-box" id="rawarea">
+						<label class="inputname" title="Raw">Raw:</label>
+						<textarea class="output" id="raw" placeholder="HTML!" rows="2" onclick="copyraw()" title="Click to Copy" required></textarea>
+					</div>
+				</div>
+				
+
+		</main>
+
+		<footer>
+			<nav>
+				<a href="https://github.com/jwenjian/visitor-badge">Credit</a> |
+				<a href="mailto:website@mrenox.ga">Contact</a><br>
+				<a id="❤" href="https://instagram.com/mrenox37" target="_blank">Made with ❤️ by MrEnoX.</a>
+			</nav>
+		</footer>
+		<p id="❗"></p>
+	</body>
+</html>
