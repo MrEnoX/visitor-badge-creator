@@ -5,3 +5,4 @@ Simple Visitor Badge Creator Website
 #### https://visitor-badge-creator.mrenox.ga
 #### https://visitorbadge-creator.mrenox.ga
 #### https://visitor-badge.mrenox.ga
+#### visitor-badge-creator.pages.dev
